@@ -1,0 +1,187 @@
+body {
+  font-family: sans-serif;
+}
+.accordion {
+  background: white;
+  margin: auto;
+  width: 60%;
+}
+.accordion h1 {
+  text-align: center;
+  color: rgba(102,102,102,1);
+}
+.accordion h2 {
+  color: rgba(51,153,255,1);
+  cursor: pointer;
+  font-size:18px;
+}
+.accordion h2, .accordion p {
+  margin: 0;
+  margin-bottom:30px;
+}
+
+.banner
+{
+	height:80px;
+	margin-top:0;
+	width:100%;
+}
+
+.banner figure img
+{
+	width:100%;
+	height:80px;
+}
+
+.elemento
+{
+	margin-bottom:10px;
+	margin-left:10px;
+	padding:10px;
+	display:block;
+}
+
+.elemento label
+{
+	width: 200px;
+	padding:5px;
+	margin-right:10px;
+	display:inline-block;
+}
+
+select
+{
+	height:30px;
+	float: left;
+	width: 150px;
+}
+
+select option
+{
+	margin:5px;
+	padding: 0;
+	width:100%;
+}
+
+input[type=button]
+{
+	float: left;
+}
+input[type=text], input[type=number], input[type=date], input[type=tel], input[type=email]  
+{
+	height:20px;
+	text-align: justify;
+	font-size:12px;
+}
+
+input[type=checkbox]
+{
+	margin-right:15px;
+}
+
+ul
+{
+	list-style-type:none;
+	margin:5px;
+}
+
+ul li
+{
+	font-size: 14px;
+	padding:10px 0;
+	text-indent: -32px;
+	text-align: justify;
+}
+
+table
+{
+	margin:5px auto;
+	margin-bottom:20px;
+}
+
+td
+{
+	border-color:rgba(102,102,102,1);
+	font-size: 14px;
+	padding-bottom:20px;
+	padding-left: 20px
+	/*border: 1px solid;*/
+}
+
+#cedula
+{
+}
+
+#nombre
+{
+	width: 200px;
+}
+#apellido
+{
+	width: 200px;
+	
+}
+
+#estados
+{
+	margin-left: -30px;
+}
+#municipios
+{
+	margin-left: -70px;
+}
+
+#parroquias
+{
+	margin-left: -20px;
+}
+#ncasa
+{
+	width:50px;
+}
+td textarea{
+	float: left;
+	height: 30px;
+	text-align: center;
+}
+td h3
+{
+	float: left;
+	font-size: 16px;
+}
+
+/**********Estilos LighBox***********/
+#popup {
+	left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+	text-align:center;
+	margin: 5px auto;
+}
+
+.content-popup {
+margin:0px auto;
+margin-top:200px;
+padding:10px;
+width:500px;
+min-height:250px;
+border-radius:4px;
+background-color: rgba(255,255,255,1);
+box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup select
+{
+	display: block;
+	margin-left: 180px;
+}
+
+.content-popup #valor
+{
+	display: block;
+	padding: 5px;
+	margin: 30px auto;
+}
+

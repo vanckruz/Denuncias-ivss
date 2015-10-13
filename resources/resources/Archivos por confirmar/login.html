@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="es">
+    	<head>
+        	<meta charset="UTF-8"/>
+            <link href="css/login_style.css" rel="stylesheet"/>
+        	<title>Login</title>
+    	</head>
+    	<body>
+        
+            <section>
+            	<header id="principal">
+                	<span id="titulo">Bienvenido al Sistema de Fiscalización del IVSS</span>
+            	</header>
+                
+            	<hgroup>
+            		<!--<h1>BIENVENIDO</h1>-->
+        			<h3>Para ingresar por favor inicie sesión como usuario registrado</h3>
+                </hgroup>
+                
+                <form action="login.php" enctype="multipart/form-data" method="post">
+            		<fieldset>
+                		<legend>Inicio de Sesión</legend>
+                    		<div>
+                    			<label for="usuario">Usuario</label>
+                				<input name="usuario" type="text"/>
+                    		</div>
+                    
+                    		<div>
+            					<label for="password">Contraseña</label>
+                				<input name="password" type="password"/>
+            				</div>
+            				<input type="submit" value="Entrar" />
+                            <p class="datos"><a href="recuperardatos.php">Olvidó sus datos de ingreso?</a></p>
+                    </fieldset>
+                    <p class="registro">No tiene una cuenta? <a href="registro.php">Registrese</a></p>
+                        
+        		</form>
+                
+            </section>

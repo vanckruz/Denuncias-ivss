@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px; border:0px;}
+
+body ,html	
+{
+	text-align:center;
+	background:#8E8E8E linear-gradient(to right, #8E8E8E, #E7E7E7, #E7E7E7, #8E8E8E) no-repeat fixed 0% 0% / cover;
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	width: 100%;
+	height: 100%;
+}
+
+.fieldset
+	{
+		background: #234181 linear-gradient(#639ACA, #6095C4 20%, #3368A0 60%, #234181 100%) repeat scroll 0% 0%;
+		border-radius:25px;
+		box-shadow:rgba(0,0,0,1) 5px 5px 5px;
+		height: auto;
+		margin:1% auto;
+		margin-bottom: -10px;
+		padding:10px;
+		padding-left: 50px;
+		text-align:center;
+		width:500px;
+	}
+
+.fieldset-user
+	{
+		background: #234181 linear-gradient(#639ACA, #6095C4 20%, #3368A0 60%, #234181 100%) repeat scroll 0% 0%;
+		border-radius:0px;
+		box-shadow:rgba(0,0,0,1) 5px 5px 5px;
+		height: auto;
+		margin:1% auto;
+		margin-bottom: -10px;
+		padding:10px;
+		padding-left: 50px;
+		text-align:center;
+		width:1000px;
+	}
+.fieldset-user table td{
+	padding: 12px;
+	
+}
+	
+.fieldset legend
+	{
+		font-size: 1.1em;
+		margin-bottom:3px;
+		padding:5px;
+	}
+	
+input[type=text], input[type=number], 
+input[type=date], input[pattern], 
+input[type=password] 
+	{
+	 	padding:0px 10px;
+	 	margin:5px;
+	 	width: 200px;
+	 	height: 30px;
+		font-size:0.8em;
+		background: rgba(0, 0, 0,);
+		border: 0;
+		-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+		-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+		box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+	}
+input[type=checkbox]
+	{
+		text-align:justify;
+		outline-width:thin;
+		padding:10px;
+		height:20px;
+		margin-right:2px;
+	}
+
+.elementoform
+{
+	display:block;
+	margin:2%;
+}
+
+.elementoform label
+{
+	display: inline-block;
+	width:30%;
+	text-align: justify;
+}
+label.registrar
+	{
+		display:inline;
+		padding:10px;
+	}
+	
+input.registrar
+	{
+		display:inline-block;
+	}
+	
+input.boton
+	{
+		display:inline;
+		width:100px;
+		height:30px;
+		margin:10px auto;
+		margin-left:10px; 
+		text-align:center;
+		border:solid 2px 0E2133;
+		border-radius:5px;
+		background-color:#e3e3e3;
+	}
+
+select{
+	height:25px;
+	text-align:center;
+	padding:0px 10px;
+	margin:5px;
+}
+
+select option{
+	color: #000;
+	padding:2px;
+	text-align:justify;
+}
+
+}
+	
+.select
+	{
+		display:block;
+		height:25px;
+		text-align:center;
+		width:120px;
+		position: relative; 
+		margin: 10px auto;
+	}
+	
+.select.fecha
+{
+	display:inline;
+	width:100px;
+	font-size:12px;
+}
+.select option
+{
+	padding:2px;
+	text-align:justify;
+}
+.tituloform
+{
+	display:block;
+	font-size:16px;
+	font-style:italic;
+	font-weight:bold;
+	margin-bottom:0;
+	margin-top:0;	
+}
+.ut
+{
+	display:block;
+}
+
+.ut input
+{
+	margin: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.ut label
+{
+	width: 10%; 
+}
+
+.border{
+	height: auto;
+	width:420px;
+	-moz-border: solid 3px;
+	-webkit-border: solid 3px;
+	border:solid 3px;
+}
+
+fieldset table th
+{
+	color: rgba(255,255,255,1);
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+fieldset table td
+{
+	padding:5px !important;
+}

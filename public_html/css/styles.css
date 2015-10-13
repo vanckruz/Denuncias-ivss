@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+/*Resetear estilos predeterminados*/ 
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header, section, footer, 
+aside, nav, article, 
+figure, figcaption,hgroup
+	{
+		display:block;
+	}
+body{
+	
+	background-color:#e3e3e3;
+	text-align:center;
+	}
+	
+.container
+	{
+		position:relative;
+		text-align:left;
+		border-radius:0 0 15px 15px;
+		width: 960px;
+		margin: 0 auto;
+		padding:0 0 5px 0;
+		/*background:-moz-linear-gradient(top, #155e8b, #054065);*/
+		/*background-color:#155e8b;*/
+	}
+
+
+h1{float:left; margin:5px auto;}
+h3{
+	margin:15px 0 5px 0;
+	padding:2px;
+	font-size:1.2em;
+  }
+	
+/*header
+	{
+		margin-top:5px;
+		padding:5px;
+		background: rgba(0,102,255,1);
+		color: hsla(0,0%,100%,1);
+		height: 66px;
+    	background: linear-gradient(#639ACA, #6095C4 20%, #3368A0 60%, #234181 100%) repeat scroll 0px 0px transparent;
+    	margin-top: 10px;
+		margin-bottom:10px;
+    	width: 960px;
+    	padding-top: 10px;
+    	top: 94px;
+
+}	
+header figure
+{
+	margin:0;
+	padding:0 5px;
+}
+header figure img
+{
+	
+	margin-bottom:10px;
+	background:hsla(0,0%,80%,1);
+}
+*/
+header h3{
+	float: right;
+	padding:0 25px;
+	font-size:1.5em;
+	color:#ffffff;
+	/*color:hsla(0,0%,100%,1);*/
+	-webkit-box-shadow:0px 10px 15px rgba(0,0,0,0.9);
+	box-shadow:0px 10px 15px rgba(0,0,0,0.9);
+	border-radius:10px 0 10px 0;
+}
+
+#btnbus{
+	float:left;
+	width:130px;
+	margin-right:280px;
+	margin-bottom:10px;
+	display:block;
+	}
+span
+	{
+		position:relative;
+		display:inline-block;
+		margin-bottom:0px;
+		padding:0px 20px;
+	}
+span.saludo{float:left;}
+span.fecha{float: left;}
+span.cerrar{
+	padding:2px;
+	margin:2px;
+	color: hsla(220,100%,30%,1);
+	-moz-box-shadow: rgb(180,150,150) 5px 5px 20px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px 20px;
+	box-shadow: rgb(150,150,150) 5px 5px 20px;
+	font-size:18px;
+	}
+span.cerrar a{
+	text-decoration:none;
+	color:#327aa0;}
+/*section
+	{
+		width:650px;
+		background:rgba(255,255,255,0.8);
+		position:relative;
+		margin:15px auto;
+		border:2px solid rgba(0,0,255,1);
+		border-color:#032c46;
+		border-radius:25px;
+		-webkit-box-shadow:0px 10px 15px rgba(0,0,0,0.5);
+		box-shadow:0px 10px 15px rgba(0,0,0,0.5);
+	}
+*/
+
+
+#trabajador{height:480px; width:600px;}
+#empresa{height:680px; width:600px;}
+#denuncia{height:250px; width:600px;}
+#documentos{height:500px; width:600px;}
+select
+	{
+		border:1px solid;
+		display:inline-block;
+		margin:10px 2px;
+		padding:3px;
+		text-align: justify;
+		max-width:250px;
+	}
+select option
+{
+	max-width:230px;
+	overflow: visible;
+}
+
+ul{ 
+	list-style-type:none;
+	text-align: justify;
+}
+ul li
+{
+	text-indent:inherit;
+	margin:5px 10px;
+	padding:5px;
+}
+ul li span {
+	margin-left:10px;
+	padding:10px;
+	display:inline;
+	}

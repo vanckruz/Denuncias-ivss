@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#popup {
+	left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.content-popup {
+margin:0px auto;
+margin-top:200px;
+padding:10px;
+width:500px;
+min-height:250px;
+border-radius:4px;
+/*
+background:-webkit-linear-gradient(top, #0E2133, #006699);
+background:-moz-linear-gradient(top, #0E2133, #006699);
+background:-ms-linear-gradient(top, #0E2133, #006699);
+background:linear-gradient(top, #0E2133, #006699);
+background-repeat:no-repeat;
+*/
+background-color: rgba(255,255,255,1);
+box-shadow: 0 2px 5px #666666;
+}
+
+.banner_pop
+{
+	margin:2px;
+	width:5px;
+	height:5px;
+	text-align:center;
+}

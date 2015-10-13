@@ -1,0 +1,235 @@
+
+body{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 16px;
+	background-color:#032c46;
+	width: 90%;
+	margin:2% auto;
+}
+
+header{
+	background:-webkit-linear-gradient(top, #0E2133, #006699);
+	background:-moz-linear-gradient(top, #0E2133, #006699);
+	background:-ms-linear-gradient(top, #0E2133, #006699);
+	background:linear-gradient(top, #0E2133, #006699);
+	text-align: right;
+	height:60px;
+	margin-bottom:30px;
+	border-radius:0 0 10px 10px;
+}
+
+header figure{
+	position: relative; 
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+}
+
+header figure img{
+	width: 40px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 5px;
+	
+	
+}
+
+header h1{
+	color: #f7f7f7;
+	float: left;
+	font-size: 1.6em;
+	display: block;
+	margin: 15px 80px 20px 3px;
+	padding: 5px;
+	background: #006090;
+	border-radius:10px 0 10px 0;
+	text-align:center;
+}
+
+header nav ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+}
+
+header nav ul li{
+	height: 35px;
+	width: 100%;
+	margin-top: 10px;
+	display: inline-block;
+	padding: 15px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #f7f7f7;
+	padding: 15px 25px;
+}
+
+section article.modulos{
+	border-radius: 0px 0px 15px 15px;
+	border-style: solid;
+	border-width: 2px;
+	display: inline-block;
+	font-size: 1.2em;
+	margin:50px 0px 20px 10%;
+	position: relative;
+	vertical-align: top;
+	width: 85%;
+}
+
+section article.modulos figure{
+	float: left;
+	margin-top: -50px;
+	margin-left: -30px;
+	margin-right: -20px;
+	width: 180px;
+	height: 150px;
+	
+}
+
+section article.modulos figure img{
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	width: 140px;
+	height: 150px;
+	background-color:#032c46;
+}
+section article.modulos div{
+	width: 90%;
+	margin: 30px 4% 10px 5%;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding-top: 20px;
+	font-size: 0.9em;
+	border-radius: 15px;
+}
+
+section article.modulos div span{
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	line-height: 20px;
+	border-radius: 15px 15px 0 0;
+	text-decoration: underline;
+	background-color: white;
+	padding: 3px 10px;
+}
+
+section article.modulos div ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+section article.modulos div ul li{
+	font-weight: bolder;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 5px 3%;
+	width: 90%;
+}
+
+
+section article.modulos h2{
+	padding: 0px;
+	text-align: right;
+	margin: 15px 20px 0px 165px;
+	font-size: 1.2em;
+}
+
+section article.modulos p{
+	font-size: 0.8em;
+	text-align: left;
+	margin: 15px 0px 5px 10px;
+}
+section article.modulos span.tipo{
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	top: -38px;
+	right: -2px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+	font-weight: bolder;
+	font-size: 0.8em;
+	color: #f7f7f7;
+
+}
+
+
+/*************************************/
+/***********COLORES MODULOS*********/
+/***********************************/
+
+section article.modulo, 
+section article.modulo figure img, 
+section article.modulo div, 
+section article.modulo span.tipo{
+	border-color: #020F2B;
+}
+
+section article.modulo h2{
+	color: #08215B;
+}
+
+section article.modulo span.tipo, 
+section article.modulo div, 
+section article.modulo div span{
+	background-color:/*004070; */  #1992BC;
+}
+
+section article.modulo p{
+	color: #335093;
+}
+
+section article.modulo{
+	background:-webkit-linear-gradient(top, #0E2133, #006699);
+	background:-moz-linear-gradient(top, #0E2133, #006699);
+	background:-ms-linear-gradient(top, #0E2133, #006699);
+	background:linear-gradient(top, #0E2133, #006699);
+}
+
+section article.modulo div span, 
+section article.modulo div ul li{
+	color: #000080;
+}
+
+//Responsive-desing
+@media screen and (min-width: 480px){
+	header nav ul li{
+		width: 22%;
+		display:block;
+
+	}
+
+	section article.modulos
+	{
+		width:40%;
+	}
+
+}
+
+@media screen and (min-width: 760px){
+	header nav ul li{
+		width: 8%;
+	}
+
+	section article.modulos{
+		width: 32%;
+		margin: 50px 3% 20px 6%;
+}
+
+@media screen and (min-width: 950px){
+	section article.modulos{
+		width: 25%;
+		margin: 50px 1% 20px 5%;
+	}
+}
